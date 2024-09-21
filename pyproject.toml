@@ -12,24 +12,24 @@ ignore_styles = []
 # If you don't want a style, move it to the 'ignore_styles' key.
 # nitpick-end
 style = [
-  "py://nitpick/resources/any/git-legal",
-  "py://nitpick/resources/any/pre-commit-hooks",
-  "py://nitpick/resources/markdown/markdownlint",
-  "py://nitpick/resources/python/39",
-  "py://nitpick/resources/python/absent",
-  "py://nitpick/resources/python/autoflake",
-  "py://nitpick/resources/python/bandit",
-  "py://nitpick/resources/python/black",
-  "py://nitpick/resources/python/flake8",
-  "py://nitpick/resources/python/ipython",
-  "py://nitpick/resources/python/isort",
-  "py://nitpick/resources/python/mypy",
-  "py://nitpick/resources/python/poetry",
-  "py://nitpick/resources/python/poetry-editable",
-  "py://nitpick/resources/python/poetry-venv",
-  "py://nitpick/resources/python/pre-commit-hooks",
-  "py://nitpick/resources/python/pylint",
-  "py://nitpick/resources/toml/toml-sort",
+    "py://nitpick/resources/any/git-legal",
+    "py://nitpick/resources/any/pre-commit-hooks",
+    "py://nitpick/resources/markdown/markdownlint",
+    "py://nitpick/resources/python/39",
+    "py://nitpick/resources/python/absent",
+    "py://nitpick/resources/python/autoflake",
+    "py://nitpick/resources/python/bandit",
+    "py://nitpick/resources/python/black",
+    "py://nitpick/resources/python/flake8",
+    "py://nitpick/resources/python/ipython",
+    "py://nitpick/resources/python/isort",
+    "py://nitpick/resources/python/mypy",
+    "py://nitpick/resources/python/poetry",
+    "py://nitpick/resources/python/poetry-editable",
+    "py://nitpick/resources/python/poetry-venv",
+    "py://nitpick/resources/python/pre-commit-hooks",
+    "py://nitpick/resources/python/pylint",
+    "py://nitpick/resources/toml/toml-sort",
 ]
 
 [tool.poetry]
@@ -39,12 +39,13 @@ license = "MIT"
 name = "pysnarf"
 readme = "README.md"
 version = "0.1.0"
+repository = "https://git.sr.ht/~shantih19/pysnarf"
 
 [tool.poetry.dependencies]
 clipboard-monitor = "^1.0.5"
 pyperclip = "^1.9.0"
 python = "^3.9"
-pywin32 = {markers = "sys_platform == 'win32'", version = "^306"}
+pywin32 = { markers = "sys_platform == 'win32'", version = "^306" }
 watchdog = "^5.0.2"
 
 [tool.poetry.dependencies.pylint]
